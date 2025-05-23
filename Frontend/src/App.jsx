@@ -1,10 +1,12 @@
-import React from 'react'
+import Code from './Components/Code.jsx';
+import Navbar from './Components/Navbar.jsx';
 
 const App = () => {
   return (
-    <div className='h-screen w-full flex items-center justify-center bg-black text-white'>
-      <h1>Hello</h1>
-    </div>
+   <>
+   <Navbar />
+     <Code />
+   </>
   )
 }
 
